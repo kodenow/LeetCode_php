@@ -1,5 +1,7 @@
 <?php
 /* 
+Performed by: https://github.com/kriscondev/
+
 164. MaximumGap
 Runtime: 489 ms, faster than 85.71% of PHP online submissions for Maximum Gap.
 Memory Usage: 31.8 MB, less than 42.86% of PHP online submissions for Maximum Gap.
@@ -7,8 +9,8 @@ Memory Usage: 31.8 MB, less than 42.86% of PHP online submissions for Maximum Ga
 class Solution {
 
     /**
-     * @param Integer[] $nums
-     * @return Integer
+     * @param Int[] $array
+     * @return Int
      */
     function maximumGap($array) {
         $valCount = count($array);
@@ -16,15 +18,13 @@ class Solution {
         sort($array);
         $maxGap = 0;
         for ($i=1; $i < $valCount ; $i++) {          
-                   $gap = $array[$i] - $array[$i-1];
+            $gap = $array[$i] - $array[$i-1];
             if($gap > $maxGap){
                 $maxGap = $gap;
             }     
         }
         return $maxGap;
-    }
-    
-    
+    }    
 }
 //Uncomment 1 array below for test case
 // $array = [3,6,9,1]; return 3
