@@ -1,8 +1,12 @@
 <?php
 /* 
-Performed by: https://github.com/kriscondev/
+Performed by:
+https://github.com/kriscondev/
+https://leetcode.com/kriscondev/
+https://www.linkedin.com/in/kristian-software-engineer/
 
 164. MaximumGap
+Difficulty: Hard
 Runtime: 489 ms, faster than 85.71% of PHP online submissions for Maximum Gap.
 Memory Usage: 31.8 MB, less than 42.86% of PHP online submissions for Maximum Gap.
 */
